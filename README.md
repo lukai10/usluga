@@ -1,5 +1,6 @@
 Do stworzenia serwera Apache został wykorzystany obraz serwera httpd na bazie alpine, a do stworzenia serwera php obraz php w wersji 7.4
 Do bazy danych zostaje dodane hasło dostępu dla roota.
+W folderze apache oprócz pliku Dockerfile, znajduje się plik konfiguracyjny serwera Apache.
 Skrypt php oprócz wyświetlenia tytułu strony ma za zadanie wyswietlić informacje czy połaczenie z bazą danych zakończyło się sukcesem oraz informacje o konfiguracji php.
 Aby uruchomić uslugę należy wydać w folderze z plikami polecenie:
 docker-compose up
